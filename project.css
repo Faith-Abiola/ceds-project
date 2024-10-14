@@ -1,8 +1,16 @@
 @import url(./utilies/btn.css);
+
 body {
-    background-color: antiquewhite;
+    background-color: lightpink;
     margin: 0;
     padding: 0;
+}
+header {
+  background-color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 .topnav {
     background-color:white;
@@ -16,6 +24,10 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    list-style: none;
   }
 
   .topnav a:hover {
@@ -77,6 +89,9 @@ body {
 .text {
   text-align: center;
 }
+.size {
+  font-size: xx-large;
+}
 .content{
   width: 90%;
   margin: auto;
@@ -86,8 +101,9 @@ body {
   line-height: .1rem;
 }
 .text4 {
-  width: 60%;
+  width: 30%;
   margin: auto;
+  text-align: center;
 }
 .container-2 {
   overflow: hidden;
@@ -113,8 +129,8 @@ body {
    height: 200px;
    color: darkblue;
 }
-.testimonial h2 {
-  padding-left: 5%;
+.align {
+  text-align: center;
 }
 .container-4 {
   display: flex;
@@ -149,30 +165,75 @@ body {
 }
 .contact p {
   text-align: center;
+  font-size: larger;
 }
-.bmi-form legend {
+.bmi-calc legend {
   text-align: center;
   font-weight: bold;
   font-size: 2rem;
 }
-.bmi-form {
+.bmi-calc {
   width: 40%;
   border-radius: 4px;
   border: .1rem solid #ffe5e5;
   padding: 1rem 0 0;
   margin: 2rem auto;
 }
-.bmi-form fieldset {
+.bmi-calc fieldset {
   border: none;
 }
-.bmi-form input {
+.bmi-calc input {
   display: block;
   width: 100%;
   padding: 1rem;
   box-sizing: border-box;
   border-radius: 1rem;
 }
-.bmi-form input[type='text'] {
+.bmi-calc input[type='text'] {
   border: none;
-  background-color: azure;
+  background-color: lightgray;
+}
+.bmi-calc input[type='submit'] {
+  border: none;
+  cursor: pointer;
+}
+.bmi-calc input:focus {
+  outline: none;
+}
+.form-field {
+  padding: 1rem;
+}
+.bold {
+  font-size: large;
+}
+footer {
+  background-color: crimson;
+  padding: 15px 10px;
+  color: white;
+}
+.link {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  color: white;
+}
+.link img {
+  display: block;
+  width: 2rem;
+}
+.link ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0;
+}
+.link li a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+}
+.span {
+  text-align: center;
+  display: block;
 }
