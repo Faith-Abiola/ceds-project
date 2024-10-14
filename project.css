@@ -163,6 +163,10 @@ header {
 .contact {
   padding: 6rem 0 0;
 }
+.contact h1 {
+  text-align: center;
+  font-size: xx-large;
+}
 .contact p {
   text-align: center;
   font-size: larger;
@@ -189,7 +193,7 @@ header {
   box-sizing: border-box;
   border-radius: 1rem;
 }
-.bmi-calc input[type='text'] {
+.bmi-calc input[type='number'] {
   border: none;
   background-color: lightgray;
 }
@@ -205,6 +209,19 @@ header {
 }
 .bold {
   font-size: large;
+}
+.bmi-output {
+  margin: 1rem auto;
+  border: .1rem solid #ddd;
+  width: 60%;
+  border-radius: 1rem;
+  color: white;
+  background-color: lightcoral;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  align-items: center;
+  padding: 1.2rem;
 }
 footer {
   background-color: crimson;

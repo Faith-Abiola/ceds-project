@@ -122,6 +122,7 @@
                                 <img src="images/star-solid.svg" alt="star">
                                 <img src="images/star-solid.svg" alt="star">
                                 <img src="images/star-solid.svg" alt="star">
+                                 <img src="images/star-solid.svg" alt="star">
                             </div>
                         </div>
                     </div>
@@ -131,24 +132,31 @@
         </section>
         <!-- BMI calculator -->
          <section class="contact">
-            <h1 class="align">Book a Session Now</h1>
+            <h1>Book a Session Now</h1>
             <p>Join us for a personalized fitness experience. Fill in your details in the form below to get us started on your fitness training</p>
             <form class="bmi-calc">
                 <legend>BMI Calculator</legend>
                 <fieldset>
                     <div class="form-field">
                         <label for="input1" class="bold">Weight</label>
-                        <input type="text" id="input1" placeholder="0kg or 0.0kg">
+                        <input class="weight-field" type="number" id="input1" placeholder="0kg or 0.0kg" required>
                     </div>
                     <div class="form-field">
                         <label for="input2" class="bold">Height</label>
-                        <input type="text" id="input2" placeholder="0cm or 0'ft">
+                        <input class="height-field" type="number" id="input2" placeholder="0cm or 0'ft" required>
                     </div>
                     <div class="form-field">
-                        <input type="submit" value="Get BMI" class="btn">
+                        <input class="btn get-bmi-btn" type="submit" value="Get BMI">
                     </div>
                 </fieldset>
             </form>
+
+            <div class="bmi-output">
+                <p>Your BMI is:</p>
+                <h2 class="bmi-result"> BMI Result</h2>
+                <p class="bmi-message">Message</p>
+
+            </div>
          </section>
         </main>
         <footer>
@@ -177,6 +185,6 @@
         </footer>
        
 
-       
+    <script src="./project.js"></script>
     </body>
 </html>
