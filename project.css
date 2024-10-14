@@ -43,7 +43,7 @@ header {
    flex-flow: column nowrap;
    height: 400px;
    color: white;
-   background-image: url(../../Downloads/pexels-rui-dias-469842-1472887.jpg);
+   background-image: url(images/pexels-rui-dias-469842-1472887.jpg);
    background-size: cover;
    background-repeat: no-repeat;
    box-sizing: border-box;
