@@ -70,7 +70,6 @@ body {
 .container-3 {
   flex-flow: row nowrap;
    display: flex;
-   
    height: 100px;
    color: darkblue;
 
@@ -86,7 +85,7 @@ body {
   font-size: 30px;
   line-height: .1rem;
 }
-.about p {
+.text4 {
   width: 60%;
   margin: auto;
 }
@@ -102,5 +101,78 @@ body {
 }
 .text3 {
   text-align: center;
-  
+}
+.testimonial {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+.container-5 {
+  flex-flow: row nowrap;
+   display: flex;
+   height: 200px;
+   color: darkblue;
+}
+.testimonial h2 {
+  padding-left: 5%;
+}
+.container-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.review-img {
+  width: 4rem;
+  height: 4rem;
+}
+.review-img img {
+  width: 100%;
+}
+.review-star h3 {
+  line-height: .05rem;
+  margin: .8rem 0;
+}
+.star {
+  display: flex;
+  flex-direction: row;
+  width: 30px;
+  height: 30px;
+}
+.contact {
+  padding: 6rem 0 0;
+}
+.contact p {
+  text-align: center;
+}
+.bmi-form legend {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.bmi-form {
+  width: 40%;
+  border-radius: 4px;
+  border: .1rem solid #ffe5e5;
+  padding: 1rem 0 0;
+  margin: 2rem auto;
+}
+.bmi-form fieldset {
+  border: none;
+}
+.bmi-form input {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 1rem;
+}
+.bmi-form input[type='text'] {
+  border: none;
+  background-color: azure;
 }
