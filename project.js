@@ -1,4 +1,4 @@
-//Grab the elements from the HTML page needed for the BMI Calculator
+    //Grab the elements from the HTML page needed for the BMI Calculator
 const weightInput = document.querySelector(".weight-field");
 const heightInput = document.querySelector(".height-field");
 const bmiBtn = document.querySelector(".get-bmi-btn");
